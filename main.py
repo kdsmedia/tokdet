@@ -38,7 +38,7 @@ generated_agents = 0
 total = 1
 
 start = time.time()
-ctypes.windll.kernel32.SetConsoleTitleW(f'[ Tiktok MassReport ] By H4cK3dR4Du & 452b')
+ctypes.windll.kernel32.SetConsoleTitleW(f'[ SANTET TIKTOK ] By SIDHANIE')
 
 def save_proxies(proxies):
     with open("proxies.txt", "w") as file:
@@ -92,7 +92,7 @@ with open(f"config.json") as f:
 def update_console_title():
     global success, failed, generated_agents, total
     success_rate = round(success/total*100,2)
-    ctypes.windll.kernel32.SetConsoleTitleW(f'[ Tiktok MassReport ] By H4cK3dR4Du & 452b | Reports Sent : {success} ~ Failed : {failed} ~ Success Rate : {success_rate}%')
+    ctypes.windll.kernel32.SetConsoleTitleW(f'[ SANTET TIKTOK ] By SIDHANIE | KIRIM SANTET : {success} ~ Failed : {failed} ~ Success Rate : {success_rate}%')
 
 def get_time_rn():
     date = datetime.datetime.now()
@@ -116,7 +116,7 @@ def check_ui():
 \t\t\t ▀▀▀ ▀▀▀·▀  ▀ ▀▀▀  ▀█▄▀▪·▀  ▀    .▀  ▀ ▀▀▀ .▀    ▀█▄▀▪.▀  ▀ ▀▀▀ 
 
 ----------------------------------------------------------------------------------------------------------------------
-\t\t\tSent Reports : [ {success} ] ~ Failed : [ {failed} ] ~ Success Rate : [ {success_rate}% ]
+\t\t\tKIRIM SANTET : [ {success} ] ~ Failed : [ {failed} ] ~ Success Rate : [ {success_rate}% ]
 ----------------------------------------------------------------------------------------------------------------------
 """ , Colors.blue_to_red, interval=0.000)
             time.sleep(10)
